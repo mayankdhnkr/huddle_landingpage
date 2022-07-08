@@ -1,0 +1,57 @@
+/* HTML */
+body{
+    background-color: hsl(193, 100%, 96%);
+}
+h1{
+    font-family: "Poppins";
+    /* line-height: 1.5; */
+    font-size: 3rem;
+    font-weight: 600;
+}
+p{
+    font-family: "Open Sans";
+    font-size: 1.25rem;
+    margin: 5% 0 ;
+}
+/* HERO SECTION */
+
+#hero-section{
+    padding: 0 5%;
+    margin: 0 0 7%;
+}
+
+.navbar{
+    margin: 3% 0 5%;
+}
+
+.background-image{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+.hero-img{
+    width: 100%;
+}
+
+.title-text{
+    padding-right: 5%;
+}
+
+.cta-button{
+    padding: 3% 10%;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 100px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.nav-button{
+    padding:1% 5%;
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+    border-radius: 100px;
+    border: 1px solid black;
+}
