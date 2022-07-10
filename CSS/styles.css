@@ -8,11 +8,20 @@ h1{
     font-size: 3rem;
     font-weight: 600;
 }
+h3{
+    font-family: "Poppins";
+        /* line-height: 1.5; */
+        font-size: 1.75rem;
+        font-weight: 600;
+        margin: 0;
+}
 p{
     font-family: "Open Sans";
     font-size: 1.25rem;
     margin: 5% 0 ;
 }
+
+
 /* HERO SECTION */
 
 #hero-section{
@@ -54,4 +63,25 @@ p{
     color: black;
     border-radius: 100px;
     border: 1px solid black;
+}
+
+/* FEATURES SECTION */
+
+#features{
+    background-color: white;
+    padding: 150px 0 350px;
+}
+.feature-img{
+    width: 100%;
+}
+.feature-card{
+    padding: 5%;
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: 75px auto;
+    border-radius: 12px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.feature-para{
+    font-size: 1.15rem;
 }
