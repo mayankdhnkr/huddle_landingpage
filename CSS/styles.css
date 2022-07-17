@@ -20,7 +20,9 @@ p{
     font-size: 1.25rem;
     margin: 5% 0 ;
 }
-
+a{
+    text-decoration: none;
+}
 
 /* HERO SECTION */
 
@@ -84,4 +86,31 @@ p{
 }
 .feature-para{
     font-size: 1.15rem;
+}
+
+/* FOOTER */
+#footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding: 5% 10%;
+}
+.icon-footer{
+    border: 2px solid white;
+    padding: 2%;
+    color: white;
+    border-radius: 100%;
+}
+.icon-footer:hover{
+    color: hsl(322, 100%, 66%);
+    border: 2px solid hsl(322, 100%, 66%);
+}
+.footer-link{
+    color: white;
+}
+.footer-link:hover{
+    text-decoration: underline;
+    color: white;
+}
+.foot-link-icon{
+    margin-right: 20px;
 }
