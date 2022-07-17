@@ -164,6 +164,9 @@ li {
         width: 80%;
         margin: 0px auto;
     }
+    #cta-section{
+        padding: 25px 0;
+    }
     .footer-icon-links{
         text-align: center;
     }
